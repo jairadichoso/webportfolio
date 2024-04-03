@@ -1,0 +1,91 @@
+#nav {
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	/*	width: 300px;*/
+	transition: all ease-in-out 0.5s;
+	z-index: 9997;
+	transition: all 0.5s;
+	padding: 0 15px;
+	background: #040b14;
+	overflow-y: auto;
+}
+
+#landing {
+	height: 100vh;
+	background-image: 
+
+	linear-gradient(
+		rgba(0, 0, 0, 0.10),
+		rgba(0, 0, 0, 0.10)
+	),
+
+	url(https://images.pexels.com/photos/2058853/pexels-photo-2058853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+
+	background-image: 
+	linear-gradient(
+		rgba(0, 0, 0, 0.20),
+		rgba(0, 0, 0, 0.20)
+		),
+	url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.fab {
+	font-size: 4vh;
+}
+
+.proj {
+	transition: transform .5s;
+}
+
+.proj:hover {
+	transform: scale(1.3);
+}
+
+#tools {
+
+	height: 100vh;
+	background-image: 
+
+	linear-gradient(
+
+		rgba(0, 0, 0, 0.15),
+		rgba(0, 0, 0, 0.15)
+		),
+
+	url(https://images.pexels.com/photos/7141167/pexels-photo-7141167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.toolbox {
+	background-color: rgba(250,250,250,.85);
+}
+
+#map {
+	height: 80vh;
+	width: 100%;
+}
+
+
+div.form-control {
+	border-radius: 0px;
+}
+
+.text-white {
+	text-shadow: 3px 3px 4px #000000;
+}
